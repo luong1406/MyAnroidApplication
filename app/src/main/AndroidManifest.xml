@@ -13,27 +13,30 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name="Slot3.Quadratic_equation"
+            android:name="Slot5.Demo5MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity
+            android:name="Slot4.Demo4MainActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name="Slot3.Quadratic_equation"
+            android:exported="true">
+
         </activity>
         <activity
             android:name="Slot3.DisplayListView"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="Slot3.MainActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
         <activity
             android:name="Slot2.Main3Activity"
             android:exported="true" />
